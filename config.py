@@ -23,7 +23,7 @@ if RESET_TIME < 60:
 
 BASE_URL = os.environ.get('BASE_URL', 'https://api.openai.com/v1/chat/completions')
 API_KEY = os.environ.get('API_KEY', None)
-MODEL = os.environ.get('MODEL', 'gpt-5')
+MODEL = os.environ.get('MODEL', 'gemini-2.5-flash')
 
 WEB_HOOK = os.environ.get('WEB_HOOK', None)
 CHAT_MODE = os.environ.get('CHAT_MODE', "global")
